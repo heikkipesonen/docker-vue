@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.12.0",
+    "restify": "^4.3.0",
+    "sequelize": "^3.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
